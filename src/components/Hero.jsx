@@ -1,9 +1,31 @@
-import React from 'react'
+import React from "react";
 
+import { motion } from "framer-motion";
+import { styles } from "../styles";
+import { ComputersCanvas } from "./canvas";
 const Hero = () => {
   return (
-    <div>Hero</div>
-  )
-}
+    <section className="relative w-full h-screen mx-auto">
+      <div
+        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row item-start gap-5`}
+      >
+        <div className="w-5 h-5 rounded-full bg-[#915eff]"></div>
+        <div className="w-1 sm:h-80 h-40 violet-gradient"></div>
 
-export default Hero
+        <div>
+          <h1 className={`${styles.heroHeadText} text-white`}>
+            Hi, I'm <span className="text-[#915eff]"> BarryChung </span>
+          </h1>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+            Software developer, System Anylizer
+            <br className="sm:block hidden" />
+            always want to create more...
+          </p>
+        </div>
+      </div>
+      <ComputersCanvas />
+    </section>
+  );
+};
+
+export default Hero;
