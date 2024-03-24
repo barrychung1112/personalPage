@@ -35,33 +35,42 @@ const Navbar = () => {
               className={`${
                 active === link.title ? "text-white" : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={()=> setActive(link.title)}
+              onClick={() => setActive(link.title)}
             >
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
         </ul>
-        <p className="text-red-500">software</p>
+        <p className="text-red-500">software developer</p>
         <div className="sm:hidden flex flex-1 justify-end items-center">
-          <img src={menu} alt="menu" className="w-[28px] h-[28px] object-contain cursor-pointer"
-          onClick={()=>setToggle(!toggle)} />
-          <div className={`${!toggle?'hidden':'flex'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px]`}>
-          <ul className="list-none flex justify-end item-start flex-col gap-4">
-          {navLinks.map((link) => (
-            <li
-              key={link.id}
-              className={`${
-                active === link.title ? "text-white" : "text-secondary"
-              } font-poppins text-[16px] font-medium cursor-pointer`}
-              onClick={()=> {setActive(link.title)
-                              setToggle(!toggle);
-              }}
-            >
-              <a href={`#${link.id}`}>{link.title}</a>
-            </li>
-          ))}
-        </ul>  
-          </div>        
+          <img
+            src={menu}
+            alt="menu"
+            className="w-[28px] h-[28px] object-contain cursor-pointer"
+            onClick={() => setToggle(!toggle)}
+          />
+          <div
+            className={`${
+              !toggle ? "hidden" : "flex"
+            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px]`}
+          >
+            <ul className="list-none flex justify-end item-start flex-col gap-4">
+              {navLinks.map((link) => (
+                <li
+                  key={link.id}
+                  className={`${
+                    active === link.title ? "text-white" : "text-secondary"
+                  } font-poppins text-[16px] font-medium cursor-pointer`}
+                  onClick={() => {
+                    setActive(link.title);
+                    setToggle(!toggle);
+                  }}
+                >
+                  <a href={`#${link.id}`}>{link.title}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
