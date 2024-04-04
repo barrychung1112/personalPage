@@ -14,15 +14,19 @@ import {
     mongodb,
     git,
     figma,
-    docker,
+    elixir,
     meta,
-    starbucks,
+    access,
     tesla,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    vue,
+    java,
+    ucfunnel,
+    cathaylife,
   } from "../assets";
   
   export const navLinks = [
@@ -46,7 +50,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Flutter Developer",
       icon: mobile,
     },
     {
@@ -54,7 +58,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "System Analyst",
       icon: creator,
     },
   ];
@@ -81,6 +85,10 @@ import {
       icon: reactjs,
     },
     {
+      name: "Vue JS",
+      icon: vue,
+    },
+    {
       name: "Redux Toolkit",
       icon: redux,
     },
@@ -93,8 +101,12 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "elixir",
+      icon: elixir,
     },
     {
       name: "Three JS",
@@ -104,59 +116,51 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Fullstack Developer",
+      company_name: "ACCESS Taiwan Lab Co., Ltd.",
+      icon: access,
+      iconBg: "#FFFFFF",
+      date: "July 2020 - February 2021",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Developing and maintaining backend system with Elixir and MongoDB.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
+      title: "React Developer",
+      company_name: "ucfunnel Co., Ltd.",
+      icon: ucfunnel,
+      iconBg: "#FFFFFF",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining KOL ecomeriance system using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Connecting with social media API and payment gateway API to provide better user experience.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "System Analyst/Full stack Developer",
+      company_name: "Cathay Life Insurance Company, Ltd.",
+      icon: cathaylife,
+      iconBg: "#FFFFFF",
+      date: "March 2022 - July 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Developing and maintaining large scale financial system using Vue.js and Java.",
+        "Analyzing and designing new feature to provide better user experiance.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Online problem repair and trouble shooting.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Master of Computer Engineering",
+      company_name: "Oregon State University",
       icon: meta,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",

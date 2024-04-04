@@ -1,8 +1,5 @@
-# React + Vite
+# Hi, I'm BarryChung
+## This project is my personal portfolio using React and Tailwind CSS.
+## Here's the project showcase [BarryChung's Portfolio](https://barrychung1112.github.io/personal-page/)
+## This project is base on [ThreeJS 3D Developer Portfolio](https://github.com/adrianhajdin/project_3D_developer_portfolio)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

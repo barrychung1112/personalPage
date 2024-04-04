@@ -39,6 +39,7 @@ const BallCanvas = ({ icon }) => {
         <OrbitControls
           enableZoom={false}
           autoRotate={true}
+          rotateSpeed={1.0}
         />
         <Ball imgUrl={icon} />
       </Suspense>
