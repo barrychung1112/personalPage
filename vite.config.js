@@ -7,4 +7,5 @@ export default defineConfig({
   build: {
     outDir: 'build', // Change 'dist' to 'build' if you prefer
   },
+  base: '/personal-page/'
 })
